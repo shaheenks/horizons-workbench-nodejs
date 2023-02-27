@@ -1,0 +1,21 @@
+{
+  "name": "horizons-template-nodejs-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "loglevel": "^1.8.1",
+    "mongodb": "^5.1.0",
+    "uuid": "^9.0.0"
+  }
+}
